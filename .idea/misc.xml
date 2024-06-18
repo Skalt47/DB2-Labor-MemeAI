@@ -5,9 +5,6 @@
     <option name="myRunOnSave" value="true" />
     <option name="myRunOnReformat" value="true" />
   </component>
-  <component name="ProjectDictionaryState">
-    <dictionary name="jauch" />
-  </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -21,6 +18,9 @@
         </selected-state>
       </profile-state>
     </entry>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_22" default="true" project-jdk-name="22" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="SaveActionSettings">
     <option name="actions">
