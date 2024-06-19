@@ -1,0 +1,19 @@
+{
+  "name": "udemy-openai-image-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tanstack/react-query": "^5.35.1",
+    "axios": "^1.6.8",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.4",
+    "openai": "^4.43.0"
+  }
+}
