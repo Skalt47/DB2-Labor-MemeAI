@@ -33,8 +33,8 @@ async function insertImageIntoDatabase(imageCreated) {
     const request = pool.request();
 
     // Insert data into the Jauch_MemeMaster_3000 table
-    await request.query(`INSERT INTO Jauch_MemeMaster_3000 (MemeName, Eingabe, PictureUrl, public_id, createdAt)
-                             VALUES ('${imageCreated.prompt}', '', '${imageCreated.url}', '${imageCreated.public_id}',
+    await request.query(`INSERT INTO Jauch_MemeMaster_3000 (Eingabe, PictureUrl, public_id, createdAt)
+                             VALUES ('${imageCreated.prompt}', '${imageCreated.url}', '${imageCreated.public_id}',
                                      '${imageCreated.createdAt}')`);
   } catch (err) {
     console.error("Error while inserting data into the database:", err);
